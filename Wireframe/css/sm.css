@@ -1,0 +1,9 @@
+@media only screen and (max-width: 320px) {
+    .banar{
+        height: 670px;
+    }
+    .btn-2{
+        margin-right: 22px;
+    }
+
+}

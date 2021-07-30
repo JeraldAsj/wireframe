@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=swap');
+
+@media only screen and (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nave{
+        padding: 30px 20px;
+        box-shadow: 0px 4px #888888;
+    }
+    .banar{
+        height: 550px;
+        padding: 110px 20px;
+    }
+    .banar h1{
+        padding-top: 20px;
+        line-height: 40px;
+        font-size: 30px;
+        
+    }
+    .banar h3{
+        padding-top: 20px;
+        line-height: 30px;  
+        font-size: 20px;
+    }
+    .main-con1{
+        padding: 60px 20px;
+    }
+    .wr-agenda p{
+        margin-top: 35px;
+        padding: 0px 20px;
+        line-height: 25px;
+    }
+    .topics{
+       display: block;
+       margin:0px 30px;
+    }
+    .topic button{
+        margin-left: 0px;
+        margin-right: 0;
+        margin-top: 40px
+    }
+    .topic h3{
+        text-align: center;
+        padding-left: 0px;
+        margin-top: 20px;
+        line-height: 21px;
+        
+    }
+    .topic p{
+        text-align: center;
+        margin-top: 15px;
+        padding-left: 0px;
+        line-height: 24px;
+    }
+    .main-con2{
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+    .cust{
+        display: flex;
+        flex-direction: column;
+    }
+    .customer{
+        margin-top: 60px;
+        margin-right: 0px;
+    }
+    .customer h2{
+        margin-top: 15px; 
+    }
+    .cus-hr{
+        border-bottom: 0.7px solid lightgrey;
+        padding: 10px 40px;
+        width: 30%;
+        margin:auto;
+    }
+    .fee{
+        padding: 70px 20px;
+    }
+     .main-con2-form{
+        padding: 20px 10px;
+    } 
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="button"],input[type="button"]:hover {
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+        width: 100%;
+      }
+      input[placeholder]
+        {
+        text-align: center;
+        }
+     input[type="button"] {
+            align-items: center;
+          } 
+  
+    .fee-p{
+        padding: 20px 10px;
+        line-height: 25px;
+    }
+    .member{
+        padding: 0px 20px;
+    }
+    .member p{
+        padding: 0px 20px;
+    }
+    .sp-hr{
+        margin: 0px auto;
+    }
+      
+    .cont-head p{
+        padding: 47px 10px;
+        line-height: 25px;
+    }
+  }
